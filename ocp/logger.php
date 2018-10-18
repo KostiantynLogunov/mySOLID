@@ -25,7 +25,7 @@ class DBLogger implements ILogger
     }
 }
 
-class EmailLogger implements ILogger {
+class EmailLogger extends FileLogger {
 
     public function log($message = 0)
     {
