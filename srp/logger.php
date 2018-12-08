@@ -5,5 +5,10 @@ class Logger {
         $this->saveToFile($message);
     }
 
+    private function saveToFile($message)
+    {
+        //code
+    }
+
 
 }
